@@ -1,4 +1,8 @@
 Revision history for WWW-MovieReviews-NYT
 
+0.02    Fri Apr 29 22:01:11 2011
+        - Added Readonly, LWP::UserAgent and HTTP::Request::Common to the pre-requisite
+          list of modules in the Build.PL and Makefile.PL.
+
 0.01    Fri Apr 29 08:11:01 2011
         - First version, released.

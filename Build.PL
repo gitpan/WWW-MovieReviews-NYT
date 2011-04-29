@@ -7,9 +7,12 @@ my $builder = Module::Build->new(
     license           => 'perl',
     dist_author       => q{Mohammad S Anwar <mohammad.anwar@yahoo.com>},
     dist_version_from => 'lib/WWW/MovieReviews/NYT.pm',
-    add_to_cleanup    => [ 'WWW-MovieReviews-NYT-*' ],    
+    add_to_cleanup    => [ 'WWW-MovieReviews-NYT-*' ],
     build_requires    => {
-        'Test::More' => 0,
+        'Test::More'            => 0,
+        'Readonly'              => 0,
+        'HTTP::Request::Common' => 0,
+        'LWP::UserAgent'        => '2.33',
     },
 );
 
