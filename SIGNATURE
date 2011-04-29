@@ -1,0 +1,43 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.66.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 608ac3a015f51c968f0d4b17589e4b569d5bc61a Build.PL
+SHA1 984897c181a9dd297b9d552fe837ffb992692a22 Changes
+SHA1 42de422bf5efade513dd0ba2e6f18346beefab9e MANIFEST
+SHA1 7d20e4e840781030202bb045d5ab81b3fd1b68b0 MANIFEST.SKIP
+SHA1 99441673e7d9f5ca93673c32f330956743fd150d META.yml
+SHA1 7e6c83b10a0554a3dea2d04a8f3a9f87af00327f Makefile.PL
+SHA1 58d9fdcace587170bd2008bbd43a9b72fb83aa8f README
+SHA1 7194fc76f9f4cf936b1fb50aed47d36b028a93b9 lib/WWW/MovieReviews/NYT.pm
+SHA1 58e0e13ae34dbe1ed875387be03463a5de2562f5 t/00-load.t
+SHA1 89ac34bf5d51d6f1582b99a7e78de8c482971f5c t/00-unit-test.t
+SHA1 d1367f677828c6dfca4b4b697b356307d84103f2 t/01-unit-test.t
+SHA1 12d96a9c589fc51d756d93781e789195b7004272 t/02-unit-test.t
+SHA1 2930b65d5f3d34c606e3819fdd6d40f4db081897 t/03-unit-test.t
+SHA1 0e0c0aa2c67f6ec48f2990bf78a8cda1d12fad2d t/04-unit-test.t
+SHA1 2b8ffb7e4f399af95d092743846ac8d438f2c53e t/manifest.t
+SHA1 0765c9ff0cc4319f415bb08d0053b7717a8284a2 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (MingW32)
+
+iQEcBAEBAgAGBQJNuuJvAAoJENoXJXWo7C/poQgH/jJwyOocvf9DQ8hefpOjfHLw
+BXBCcy0MoJ4AxyrcoVfrU3rc/MKBdX+TuWxiDSxhT2XSB7ppSh5fuRjijchHOB69
+RctsQ6tesatBOiNN5Zl0vD9UAORThuD2CkyWIAo3R+mEGBL+wCeI2CYc3mDxndHY
+nCQtp5RmlNIc04HAH6BsddZVjve+9oS8RRfCEjKhTCCtPewNJ0zMAAirQDMRdN6k
+J1MuYxnrZVEok9oXzkquXN289Hxc0YUh4eJaKBl7pNd9EG3EZkLljkpMTEdUXmI8
+DsZybrXHj+1qkGAp7Ni1p6jpRZNjS1xUEsiayG59MondjMPm+AVTwfWo2n79UbQ=
+=m38z
+-----END PGP SIGNATURE-----
