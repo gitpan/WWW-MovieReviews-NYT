@@ -14,11 +14,11 @@ WWW::MovieReviews::NYT - Interface to NewYorkTimes Movie Reviews API.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 Readonly my $API_VERSION => 'v2';
 Readonly my $API_URL     =>
 {
@@ -425,7 +425,7 @@ L<http://search.cpan.org/dist/WWW-MovieReviews-NYT/>
 
 Copyright 2011 Mohammad S Anwar.
 
-  software; you can redistribute it and/or modify it under the terms of
+This  program  is  free  software; you can redistribute it and/or modify it under the terms of
 either:  the  GNU  General Public License as published by the Free Software Foundation; or the
 Artistic License.
 

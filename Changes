@@ -1,5 +1,8 @@
 Revision history for WWW-MovieReviews-NYT
 
+0.03    Thu May 05 15:11:20 2011
+        - Fixed typo in the pod for title "LICENSE AND COPYRIGHT".
+
 0.02    Fri Apr 29 22:01:11 2011
         - Added Readonly, LWP::UserAgent and HTTP::Request::Common to the pre-requisite
           list of modules in the Build.PL and Makefile.PL.
