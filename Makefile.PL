@@ -10,8 +10,8 @@ WriteMakefile(
     clean         => { FILES => 'WWW-MovieReviews-NYT-*' },
     PREREQ_PM     => {
         'Test::More'            => 0,
-        'Readonly'              => 0,
-        'HTTP::Request::Common' => 0,
+        'Readonly'              => '1.03',
+        'HTTP::Request::Common' => '5.824',
         'LWP::UserAgent'        => '2.33',
     },
     ($ExtUtils::MakeMaker::VERSION >= 6.3002

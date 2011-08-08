@@ -10,8 +10,8 @@ my $builder = Module::Build->new(
     add_to_cleanup    => [ 'WWW-MovieReviews-NYT-*' ],
     build_requires    => {
         'Test::More'            => 0,
-        'Readonly'              => 0,
-        'HTTP::Request::Common' => 0,
+        'Readonly'              => '1.03',
+        'HTTP::Request::Common' => '5.824',
         'LWP::UserAgent'        => '2.33',
     },
 );

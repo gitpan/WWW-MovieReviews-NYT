@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,14 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 0494ce3526ee9bece211cb0948015c3517450f1e Build.PL
-SHA1 884df786f1e3cbfc72ea6705befb210a467d16d1 Changes
+SHA1 0789d12748d207c22d65b28d529717c857be3f12 Build.PL
+SHA1 132051d1547de83179c30cdc8f07c6047cbb695b Changes
 SHA1 42de422bf5efade513dd0ba2e6f18346beefab9e MANIFEST
 SHA1 7d20e4e840781030202bb045d5ab81b3fd1b68b0 MANIFEST.SKIP
-SHA1 b501d936c5eef9f0f247681646db0657b70676e3 META.yml
-SHA1 c37c17941736d08c3a5c7a990a11ff1c5652b9e4 Makefile.PL
+SHA1 78554c8ea616f42fcb1d5d404f8fbe1eda9ad52f META.yml
+SHA1 ce31779eb4fd5a36aeabe17f9ffaa0ec96c69fb6 Makefile.PL
 SHA1 58d9fdcace587170bd2008bbd43a9b72fb83aa8f README
-SHA1 84b03bdf982ab0ba615654204cc1896930f5631b lib/WWW/MovieReviews/NYT.pm
+SHA1 0ff09c51d5b28e6b29536e2c99871c402cfc5586 lib/WWW/MovieReviews/NYT.pm
 SHA1 58e0e13ae34dbe1ed875387be03463a5de2562f5 t/00-load.t
 SHA1 89ac34bf5d51d6f1582b99a7e78de8c482971f5c t/00-unit-test.t
 SHA1 d1367f677828c6dfca4b4b697b356307d84103f2 t/01-unit-test.t
@@ -33,11 +33,11 @@ SHA1 0765c9ff0cc4319f415bb08d0053b7717a8284a2 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2.0.14 (MingW32)
 
-iQEcBAEBAgAGBQJNwrB9AAoJEPYcXBXhRYOhBn0H/2Yrbj5hTnd4TDtQndrB0sJa
-eQhAW67APpFcb9oCT3JqBmmDA/ejYqS62YCZx7yWClPQaHS8NEQ5GA8bnYg6U4ZO
-WDNG4p9LNWsf50EZCcMUAazmkTzDB6f3Bq773XKT9HMMQtfOz+nEDDUHL0fFETik
-6GHgHBZ0ByjjCyPfoYata24rDHy8zh3o71RWP9yj6lXhbd7a60QmAnzPcJBafNJd
-x3Ij5+zkGJe7QHUysH75/yO0f3fZiZdZ/ECHPXJ45VY7oB/GKgDFgJwztY7fpxyh
-LNj5oN/FvLMmiMC1k1NzPiyMPbw8zz/nDdgQpsnJobfK5HJkYi5HLiR0+6crPGs=
-=oikH
+iQEcBAEBAgAGBQJOP9MxAAoJEPYcXBXhRYOhYgMH/0pTcIp9qxeki6Ynm6e1j9W4
+iv4yeUnXHKNhRgRZ9u6Q4joDAObUFkZQBIHA+RkvNmGTpJJGtRN2gNKJ9UAODh+S
+SduicP3yNuM3uezkMELnPbwDUDVYZB284ziGM/rdMYPiR7GllgKjBPpvbrJ/aumC
+xDPPBq8HKpHwTsDeO8WyXeremtcvjSq7frXITAryAoiHy25dYwbcS4GGCUG8djaf
+WX12MgOCUhyiXhosQm/sdEchMDeRZ+VxG4r86SM4P+P9doM63e2tGR1karpzkm0G
+Nj2GvSkagJDXG7uW70qzKjJT20Iy1oXc9DoZLXj14rIZXItqW6Xzyh1dyftLOY4=
+=nlxb
 -----END PGP SIGNATURE-----
